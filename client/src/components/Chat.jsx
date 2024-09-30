@@ -7,7 +7,7 @@ import { useState } from "react";
 import styles from "../styles/Chat.module.css";
 import Messages from "./Messages";
 
-const socket = io.connect("http://0.0.0.0:5000");
+const socket = io.connect("https://server.fantamas.com");
 
 const Chat = () => {
   const { search } = useLocation();
